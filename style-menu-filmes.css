@@ -67,16 +67,20 @@ nav a:hover{
   padding:25px;
 }
 
+.title {
+    color: white;
+    margin-left: 40px;
+}
+
 /* GRID DOS FILMES */
 
-.filmes-grid{
-  display:grid;
-  padding: 10px 40px;
+.filmes-grid {
+    display: grid;
+    padding: 10px 40px;
 
-  grid-template-columns:
-  repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, 260px);
 
-  gap:30px;
+    gap: 30px;
 }
 
 
